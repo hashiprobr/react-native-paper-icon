@@ -1,7 +1,7 @@
 {
   "name": "@hashiprobr/react-native-paper-icon",
-  "version": "1.0.0",
-  "description": "TODO",
+  "version": "1.0.1",
+  "description": "A React Native Paper Icon with size inferred from style",
   "keywords": [
     "JavaScript",
     "React",

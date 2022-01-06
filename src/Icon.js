@@ -21,6 +21,7 @@ export default function Icon(props) {
                 flexGrow: 1,
                 alignSelf: 'stretch',
                 ...props.style,
+                fontSize: size,
             }}
             onLayout={onLayout}
         />
