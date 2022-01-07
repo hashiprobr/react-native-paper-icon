@@ -16,7 +16,6 @@ export default function Icon(props) {
     return (
         <OriginalIcon
             {...props}
-            size={size}
             style={{
                 flexGrow: 1,
                 alignSelf: 'stretch',
@@ -24,6 +23,7 @@ export default function Icon(props) {
                 fontSize: size,
             }}
             onLayout={onLayout}
+            size={size}
         />
     );
 }
