@@ -14,6 +14,18 @@ This avoids the need for explicitly defining an icon size, and is particularly
 convenient when the parent component already has the desired dimensions.
 
 
+Peer dependencies
+-----------------
+
+``` json
+{
+    "react": "^17.0.1",
+    "react-native": ">=0.64.3",
+    "react-native-paper": "^4.11.1"
+}
+```
+
+
 Install
 -------
 
@@ -40,7 +52,7 @@ module.exports = async function (env, argv) {
         babel: {
             dangerouslyAddModulePathsToTranspile: [
                 '@hashiprobr/react-native-paper-icon',
-            ]
+            ],
         },
     }, argv);
     return config;
