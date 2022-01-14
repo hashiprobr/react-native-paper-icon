@@ -22,8 +22,8 @@ export default function Icon(props) {
                 ...props.style,
                 fontSize: size,
             }}
-            onLayout={onLayout}
             size={size}
+            onLayout={onLayout}
         />
     );
 }
