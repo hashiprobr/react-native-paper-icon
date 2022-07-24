@@ -1,6 +1,6 @@
 {
   "name": "@hashiprobr/react-native-paper-icon",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A React Native Paper Icon with size inferred from style",
   "keywords": [
     "JavaScript",
@@ -26,8 +26,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "peerDependencies": {
-    "react": "^17.0.1",
-    "react-native": ">=0.64.3",
-    "react-native-paper": "^4.11.1"
+    "react": "17.0.2",
+    "react-native": "0.68.2",
+    "react-native-paper": "4.12.3"
   }
 }
