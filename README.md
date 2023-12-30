@@ -1,6 +1,8 @@
 react-native-paper-icon
 =======================
 
+[PROJECT DISCONTINUED]
+
 **A React Native Paper Icon with size inferred from style**
 
 The `Icon` component displays a [Material
